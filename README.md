@@ -60,7 +60,7 @@ open-source license
 
 #### Running the program and providing non-int input for 'Number of Questions':
 ```bash
-'Number of Questions' should be an int!'
+'"Number of Questions" should be an int!'
 ```
 
 #### Running the program and entering a number greater than the amount of lines in -n "filename.txt":
