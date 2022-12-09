@@ -27,7 +27,7 @@ Enter a name to save your file: (e.g. Output.txt)
 
 You should see the following output:
 ```bash
-  Done! Output.txt is created.
+  'Done! Output.txt is created.'
 ```
 ## Roadmap
 
