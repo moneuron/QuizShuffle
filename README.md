@@ -45,32 +45,32 @@ open-source license
 
 #### Running the program without providing a command-line argument:
 ```bash
-usage: project.py -n "filename.txt"
+'usage: project.py -n "filename.txt"'
 ```
 
 #### Running the program and providing an Invalid command-line argument:
 ```bash
-Invalid entry
+'Invalid entry'
 ```
 
 #### Running the program and providing a command-line argument that does not exist:
 ```bash
-Could not read filename.txt
+'Could not read filename.txt'
 ```
 
 #### Running the program and providing non-int input for 'Number of Questions':
 ```bash
-'Number of Questions' should be an int!
+'Number of Questions' should be an int!'
 ```
 
 #### Running the program and entering a number greater than the amount of lines in -n "filename.txt":
 ```bash
-Not enough questions in filename.txt
+'Not enough questions in filename.txt'
 ```
 
 #### Running the program and providing an input that does not end with '.txt' for 'File Name' : 
 ```bash
-'File Name' should end with .txt
+'"File Name" should end with .txt'
 ```
 ## Support
 
