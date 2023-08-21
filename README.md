@@ -79,7 +79,7 @@ For support, email sirshakiba@outlook.com.
 
 ## Feedback
 
-If you have any feedback, please reach out to me at sirshakiba@outlook.com
+If you have any feedback, please reach out to me at e.shakiba@icloud.com
 
 
 ## Acknowledgements
