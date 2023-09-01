@@ -74,12 +74,12 @@ open-source license
 ```
 ## Support
 
-For support, email sirshakiba@outlook.com.
+For support, email help@int-n.info.
 
 
 ## Feedback
 
-If you have any feedback, please reach out to me at e.shakiba@icloud.com
+If you have any feedback, please reach out to me at help@int-n.info
 
 
 ## Acknowledgements
