@@ -1,93 +1,97 @@
-
 # QuizShuffle
-Gets a '.txt' file name as a command line argument.
-Prompts for a '.txt' file name and a number.
-Writes a .txt file with (n = number) of questions shuffled.
+
+QuizShuffle is a command-line utility that takes a '.txt' file as input and creates a new '.txt' file with a specified number of randomly selected questions from the input file. Whether you're a teacher looking to generate random quizzes or a student studying for an exam, QuizShuffle makes the process easy and efficient.
+
+## Table of Contents
+- [Eli5](#eli5)
+- [How to Run](#how-to-run)
+- [License](#license)
+- [Common Errors](#common-errors)
+- [Support](#support)
+- [Feedback](#feedback)
+- [Acknowledgements](#acknowledgements)
+- [Author](#author)
 
 ## Eli5
 
-Have you ever had a file containing several questions?
-Whether you are a teacher or a student, this program lets you enter the name of a text file, and a number(n), and will create a .txt file containing n questions randomly picked for you.
-## How to run
+Have you ever had a file containing several questions? Whether you are a teacher or a student, this program lets you enter the name of a text file and a number (n), and it will create a new .txt file containing n randomly selected questions for you.
 
-To run the program:
-```bash
-  python main.py -n "filename.txt"
+## How to Run
+
+To run the program, open your terminal and use the following command:
+
+```
+python main.py -n "filename.txt"
 ```
 
-Enter the number of questions you want: (e.g. 12)
-```bash
-  Number of Questions: 12
+You'll be prompted to provide the following information:
+
+1. Enter the number of questions you want (e.g., 12):
+```
+Number of Questions: 12
 ```
 
-Enter a name to save your file: (e.g. Output.txt)
-```bash
-  File Name: Output.txt
+2. Enter a name to save your file (e.g., Output.txt):
+```
+File Name: Output.txt
 ```
 
-You should see the following output:
-```bash
-  'Done! Output.txt is created.'
+After completing these steps, you should see the following output:
+
 ```
-## Roadmap
-
-- Additional file format support
-
-- Add more features
-
+Done! Output.txt is created.
+```
 
 ## License
 
-open-source license
-
+QuizShuffle is released under an open-source license.
 
 ## Common Errors
 
+Here are some common errors and their corresponding error messages:
+
 #### Running the program without providing a command-line argument:
-```bash
-'usage: project.py -n "filename.txt"'
+```
+Usage: python main.py -n "filename.txt"
 ```
 
-#### Running the program and providing an Invalid command-line argument:
-```bash
-'Invalid entry'
+#### Running the program and providing an invalid command-line argument:
+```
+Invalid entry
 ```
 
 #### Running the program and providing a command-line argument that does not exist:
-```bash
-'Could not read filename.txt'
+```
+Could not read filename.txt
 ```
 
-#### Running the program and providing non-int input for 'Number of Questions':
-```bash
-'"Number of Questions" should be an int!'
+#### Running the program and providing non-integer input for 'Number of Questions':
+```
+"Number of Questions" should be an integer!
 ```
 
-#### Running the program and entering a number greater than the amount of lines in -n "filename.txt":
-```bash
-'Not enough questions in filename.txt'
+#### Running the program and entering a number greater than the number of lines in "filename.txt":
+```
+Not enough questions in filename.txt
 ```
 
-#### Running the program and providing an input that does not end with '.txt' for 'File Name' : 
-```bash
-'"File Name" should end with .txt'
+#### Running the program and providing an input that does not end with '.txt' for 'File Name':
 ```
+"File Name" should end with .txt
+```
+
 ## Support
 
-For support, email help@int-n.info.
-
+For support or assistance, please contact us at help@int-n.info.
 
 ## Feedback
 
-If you have any feedback, please reach out to me at help@int-n.info
-
+We value your feedback! If you have any suggestions or encounter issues while using QuizShuffle, please reach out to us at help@int-n.info.
 
 ## Acknowledgements
 
- - [CS50P](https://cs50.harvard.edu/python/2022/)
-
+We would like to acknowledge the [CS50P](https://cs50.harvard.edu/python/2022/) course for inspiration and guidance in creating QuizShuffle.
 
 ## Author
 
-- [@abikahs](https://www.github.com/abikahs)
-
+QuizShuffle is developed and maintained by [@abikahs](https://www.github.com/abikahs). Feel free to visit the GitHub repository for updates and contributions.
