@@ -1,5 +1,5 @@
 # QuizShuffle
-##### by [Mo Shakiba](http://moshakiba.me)
+##### by [Mo Shakiba](https://moshakiba.me)
 
 QuizShuffle is a command-line utility that takes a '.txt' file as input and creates a new '.txt' file with a specified number of randomly selected questions from the input file. Whether you're a teacher looking to generate random quizzes or a student studying for an exam, QuizShuffle makes the process easy and efficient.
 
